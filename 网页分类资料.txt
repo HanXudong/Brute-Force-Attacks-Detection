@@ -1,0 +1,27 @@
+
+
+中文网页自动分类综述 http://blog.csdn.net/boom_j/article/details/53781918
+
+一、网页预处理
+	Java实现从Html文本中提取纯文本	http://blog.csdn.net/fjssharpsword/article/details/53467079
+	提取网页中文	https://tianchi.aliyun.com/competition/new_articleDetail.html?raceId=231612&postsId=2436
+二、中文分词
+	11大Java开源中文分词器的使用方法和分词效果对比	https://my.oschina.net/apdplat/blog/412921
+	程序源码 https://github.com/ysc/cws_evaluation/blob/master/src/org/apdplat/evaluation/WordSegmenter.java
+
+	Java中文分词组件 - word分词
+	http://blog.csdn.net/xiaomin1991222/article/details/50981335
+三、特征提取
+	1.文档频率（DF）
+
+	在文档频率方法中，使用特征词在一个类别中出现的文档数来表示这个特征词与该类别的相关度。出现的文档数多的特征词被保留的可能性大。显然，文档频率方法实现最简单、算法复杂度最低，而且 DF 方法与其他几种方法的分类性能也差不多。
+
+	分析一个文本文件中各个词出现的频率(java实现)	http://blog.csdn.net/u014204432/article/details/40348839
+
+
+	2.信息增益(IG)
+
+	信息增益 (IG) 是公认较好的特征选择方法，它刻画了一个词语在文本中出现与否对文本情感分类的影响，即一个词语在文本中出现前后的信息嫡之差。某个词语的信息增益值越大，说明它对分类的贡献就越大。信息增益的计算见公式：
+
+	计算信息增益，选择特征词
+	http://www.cnblogs.com/zhangchaoyang/articles/2236475.html
